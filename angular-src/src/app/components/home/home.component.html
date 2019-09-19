@@ -1,0 +1,53 @@
+<div class="jumbotron text-center">
+  <div class="jumbText">
+    <!-- <img class="card-img-top" src="../../../assets/imagery/cardiff-3906167_960_720.jpg" alt="Card image cap"> -->
+    <h1>Wales in a Box</h1>
+    <p class="lead">Could you imagine having an entire city in a box? Me neither. 
+      Well, you can definitely have something to remind you of Welsh cities whether you are a tourist bringing back something to remember your visit or a native who wants to send a box as a gift. 
+      Register now and get one (or more) of our boxes!</p>
+    <div>
+      <a class="btn" *ngIf="!authService.loggedIn()" [routerLink]="['/register']">Register</a> <a class="btn"*ngIf="!authService.loggedIn()" [routerLink]="['/login']">Login</a>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-md-4">
+    <h3>Cardiff in a Box</h3>
+    <div class="card mb-4 box-shadow">
+      <img class="card-img-top" src="../../../assets/imagery/Cardiff in a Box.png" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">A box full of almost everything Cardiff. Whether you want to send this to someone as a gift or to have something to remember, this intuitive box of goods are a must have to remind you of Cardiff.</p>
+        <div class="d-flex justify-content-between align-items-center">
+            <button type="button" class="btnItem btn-lg btn-block" [routerLink]="['/product1']">See More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <h3>Swansea in a Box</h3>
+    <div class="card mb-4 box-shadow">
+      <img class="card-img-top" src="../../../assets/imagery/Swansea in a Box.png" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">A box full of almost everything Swansea. Whether you want to send this to someone as a gift or to have something to remember, this intuitive box of goods are a must have to remind you of Swansea.</p>
+        <div class="d-flex justify-content-between align-items-center">
+            <button type="button" class="btnItem btn-lg" routerLink="/product2">See More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <h3>Barry in a Box</h3>
+    <div class="card mb-4 box-shadow">
+    <img class="card-img-top" src="../../../assets/imagery/Barry in a Box.png" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">A box full of almost everything Barry. Whether you want to send this to someone as a gift or to have something to remember, this intuitive box of goods are a must have to remind you of Barry.</p>
+        <div class="d-flex justify-content-between align-items-center">
+            <button type="button" class="btnItem btn-lg" [routerLink]="['/product3']">See More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
