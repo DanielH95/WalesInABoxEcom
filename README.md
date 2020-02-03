@@ -1,6 +1,4 @@
-This app was deployed with Heroku connecting with Github repo
 
-Preview it Here: https://unsplash-search-api.herokuapp.com/
 
 **************************************
 
